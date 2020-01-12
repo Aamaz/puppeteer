@@ -36,3 +36,9 @@ const puppeteer = new Puppeteer(__dirname, preferredRevision, isPuppeteerCore);
 puppeteer._lazyLauncher = undefined;
 
 module.exports = puppeteer;
+
+var test;
+test = true;
+if (test != true) {
+  console.log("test failed");
+}
